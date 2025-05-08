@@ -1,12 +1,26 @@
 .App {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+menu {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
 }
-
+li {
+  list-style-type: none;
+}
+button {
+  padding: 10px;
+  background: #000;
+  color: white;
+  border-radius: 5px;
+}
+.dark {
+  background-color: #000;
+  color: white;
+}
+.light {
+  background-color: white;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
